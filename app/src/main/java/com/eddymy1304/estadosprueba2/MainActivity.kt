@@ -39,6 +39,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun MyStateExample() {
 
+    // para guardar las variables
     // remember
     //remembersaveable
     val counter = rememberSaveable { mutableStateOf(0) }
